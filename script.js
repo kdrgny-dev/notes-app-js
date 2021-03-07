@@ -12,7 +12,7 @@ addBtn.addEventListener('click', () => addNewNote());
 
 function addNewNote(text = '') {
     const note = document.createElement('div');
-    note.classList.add('col-3');
+    note.classList.add(`col-sm-3`);
     note.innerHTML = `
         <div class="card note shadow">
             <div class="card-header tools d-flex justify-content-between">
